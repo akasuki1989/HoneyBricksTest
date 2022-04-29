@@ -1,0 +1,61 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add @openzeppelin/contracts
+
+PATH: 
+  C:\Python310\Scripts\;C:\Python310\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\xampp_v7\php;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\Hostx64\x64;C:\@dev\b2\bin;C:\xampp\apache\bin;C:\Windows\System32\cmd.exe;C:\@dev\vcpkg;C:\@dev\cmake\bin;C:\Program Files\Git\cmd;C:\composer;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\PuTTY\;C:\Program Files (x86)\NetSarang\Xftp 7\;C:\Users\Jackie\AppData\Roaming\Python\Python39\Scripts;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\xampp\apache\bin;C:\Python\Scripts\;C:\Python\;C:\Users\Jackie\AppData\Local\Microsoft\WindowsApps;C:\Users\Jackie\AppData\Local\Programs\Microsoft VS Code\bin;C:\xampp\php;C:\Users\Jackie\AppData\Local\GitHubDesktop\bin;C:\Program Files\TestProject Agent;C:\Users\Jackie\AppData\Roaming\Composer\vendor\bin;C:\Users\Jackie\AppData\Local\Yarn\bin;C:\Program Files\heroku\bin;C:\Users\Jackie\AppData\Roaming\npm;C:\Users\Jackie\AppData\Local\Programs\IPFS Desktop\resources\app.asar.unpacked\src\ipfs-on-path\scripts\bin-win
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  16.13.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26)
+
+npm manifest: 
+  {
+    "name": "hardhat-project",
+    "devDependencies": {
+      "@nomiclabs/hardhat-ethers": "^2.0.5",
+      "@nomiclabs/hardhat-etherscan": "^2.1.8",
+      "@nomiclabs/hardhat-waffle": "^2.0.3",
+      "@typechain/ethers-v5": "^7.2.0",
+      "@typechain/hardhat": "^2.3.1",
+      "@types/chai": "^4.3.1",
+      "@types/mocha": "^9.1.1",
+      "@types/node": "^12.20.50",
+      "@typescript-eslint/eslint-plugin": "^4.33.0",
+      "@typescript-eslint/parser": "^4.33.0",
+      "chai": "^4.3.6",
+      "dotenv": "^10.0.0",
+      "eslint": "^7.32.0",
+      "eslint-config-prettier": "^8.5.0",
+      "eslint-config-standard": "^16.0.3",
+      "eslint-plugin-import": "^2.26.0",
+      "eslint-plugin-node": "^11.1.0",
+      "eslint-plugin-prettier": "^3.4.1",
+      "eslint-plugin-promise": "^5.2.0",
+      "ethereum-waffle": "^3.4.4",
+      "ethers": "^5.6.4",
+      "hardhat": "^2.9.3",
+      "hardhat-gas-reporter": "^1.0.8",
+      "prettier": "^2.6.2",
+      "prettier-plugin-solidity": "^1.0.0-beta.13",
+      "solhint": "^3.3.7",
+      "solidity-coverage": "^0.7.21",
+      "ts-node": "^10.7.0",
+      "typechain": "^5.2.0",
+      "typescript": "^4.6.3"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
